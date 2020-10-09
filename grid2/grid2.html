@@ -1,0 +1,200 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylesheet1.css" />
+    <title>Grid 2</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .root {
+            padding-right: 120px;
+            padding-left: 120px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            background-color: #333;
+            padding-left: 120px;
+        }
+
+        .header a {
+            display: flex;
+            color: #f2f2f2;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        h1 {
+            margin: 10px;
+        }
+
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .headBar {
+            margin-top: 60px;
+            display: inline-flex;
+            width: 100%;
+            margin-left: 3px;
+            padding-bottom: 0px;
+        }
+
+        .heading {
+            padding-bottom: 0px;
+        }
+
+        .secondary {
+            width: auto;
+            padding-bottom: 0px;
+        }
+
+        .secondary h2 {
+            margin: 10px;
+            padding-top: 11px;
+            font-size: 22px;
+            color: grey;
+            font-weight: 80;
+        }
+
+        hr {
+            border-top: 1.2px;
+            height: 0.4px;
+            margin-left: 12px;
+            margin-right: 12px;
+            background: #696969;
+            margin-top: 1px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .thumbnail {
+            overflow: hidden;
+            margin: 12px;
+            width: 30%;
+            background: white;
+        }
+
+
+        .thumbnail h2 {
+            color: #007baf;
+        }
+
+        @media screen and (min-width: 681px) {
+            .thumbnail {
+                flex-grow: 1;
+                flex-shrink: 1;
+                flex-basis: calc(100% - 2rem);
+            }
+
+            .thumbnail img {
+                width: -webkit-fill-available;
+            }
+        }
+
+        @media screen and (min-width: 1100px) {
+            .thumbnail {
+                flex-grow: 1;
+                flex-shrink: 1;
+                flex-basis: calc(33% - 2rem);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .thumbnail {
+                flex-grow: 1;
+                flex-shrink: 1;
+                flex-basis: calc(100% - 2rem);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <a href="#">Layout1</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="root">
+        <div class="headBar">
+            <div class="heading">
+                <h1>Page Heading</h1>
+            </div>
+            <div class="secondary">
+                <h2>Secondary Text</h2>
+            </div>
+        </div>
+        <hr />
+        <div class="container">
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img.png">
+                <h2>Project Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                    venenatis velit nec</p>
+            </div>
+        </div>
+        <hr />
+    </div>
+</body>
+
+</html>

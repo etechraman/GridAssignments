@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid 1</title>
+    <style>
+        /* .grid-container {
+            display: grid;
+            grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+        } */
+
+        .wrapper {
+            padding: 20px;
+            background-color: #F5F5F5;
+
+        }
+
+        .item1 {
+            grid-area: A;
+            color: #ffffff;
+        }
+
+        .item2 {
+            grid-area: B;
+            color: #ffffff;
+        }
+
+        .item3 {
+            grid-area: C;
+            color: #ffffff;
+        }
+
+        .item4 {
+            grid-area: D;
+            color: #ffffff;
+        }
+
+        .item5 {
+            grid-area: E;
+            color: #ffffff;
+        }
+
+        .item6 {
+            grid-area: F;
+            color: #ffffff;
+        }
+
+        .item7 {
+            grid-area: G;
+            color: #ffffff;
+        }
+
+        .item8 {
+            grid-area: H;
+            color: #ffffff;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: 150px 75px 75px;
+            grid-template-areas:
+                'A A B B B F F G G'
+                'C E E E E F F G G'
+                'D E E E E F F H H';
+
+            grid-gap: 10px;
+            background-color: #FFFFFF;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: #CBCBCB;
+            /* text-align: center; */
+            padding: 0px 0;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="grid-container">
+            <div class="item1">A</div>
+            <div class="item2">B</div>
+            <div class="item3">C</div>
+            <div class="item4">D</div>
+            <div class="item5">E</div>
+            <div class="item6">F</div>
+            <div class="item7">G</div>
+            <div class="item8">H</div>
+        </div>
+    </div>
+</body>
+
+</html>
